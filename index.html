@@ -3,12 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Online Exam Portal</title>
-    <link src="ibm.html">
-    <script>
-    function login(){
-        window.location.href = "ibm.html";
-    }
-  </script>
 
     <style>
         body {
@@ -17,7 +11,6 @@
             background-color: #f2f2f2;
         }
 
-        
         .header {
             background-color: #1a73e8;
             color: white;
@@ -27,13 +20,11 @@
             font-weight: bold;
         }
 
-        
         .container {
             display: flex;
             margin: 20px;
         }
 
-       
         .left {
             width: 50%;
             background-color: white;
@@ -51,7 +42,6 @@
             line-height: 1.6;
         }
 
-     
         .right {
             width: 50%;
             background-color: white;
@@ -61,7 +51,6 @@
             text-align: center;
         }
 
-        
         .right img {
             width: 120px;
             height: 120px;
@@ -69,11 +58,10 @@
             margin-bottom: 15px;
         }
 
-
         input {
             width: 80%;
             padding: 10px;
-            margin: 8px 0;
+            margin: 10px 0;
             border: 1px solid #ccc;
             border-radius: 4px;
         }
@@ -93,17 +81,14 @@
             background-color: #0f5bd6;
         }
 
-        
         .footer {
             text-align: center;
-            padding: 10px;
-            background-color: #ddd;
-            margin-top: 20px;
-            background-color:#0f5bd6;
+            padding: 12px;
+            background-color: #0f5bd6;
             color: white;
             font-size: 20px;
+            margin-top: 20px;
         }
-    
     </style>
 </head>
 
@@ -113,7 +98,8 @@
         Online Examination Portal
     </div>
 
-    <div class="container"> 
+    <div class="container">
+
         <div class="left">
             <h2>Exam Information</h2>
             <p><b>Exam Name:</b> Semester Examination</p>
@@ -131,11 +117,11 @@
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLUGjjS1oHJT1uJvcip7_XUy9jAaGW9WP37Q&s" alt="Student Photo">
 
             <h2>Student Login</h2>
-
-            <input type="text" placeholder="User ID"><br>
-            <input type="password" placeholder="Password"><br><br>
-
-            <button onclick="login()">Login</button>
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Student ID">
+            <a href="ibm.html">
+                <button>Login</button>
+            </a>
         </div>
 
     </div>
